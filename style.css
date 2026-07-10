@@ -13,7 +13,7 @@
     .container{
         max-width: 1200px;
         margin: auto;
-        width: 100%;
+    
     }
 
     /* Navbar Container */
@@ -198,4 +198,172 @@
     font-size: 0.9rem;
     color: #6b7280; 
     font-weight: 400;
+}
+/* Pricing container */
+.pricing-container {
+  margin-top:100px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+/* Header Text */
+.pricing-header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.main-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0b132b;
+    margin-bottom: 12px;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #64748b;
+}
+
+/* Pricing Grid Layout */
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    align-items: stretch;
+}
+
+/* Base Card Styling */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.light-bg {
+    background-color: #f8fafc;
+}
+
+.card-header {
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+}
+
+.plan-name {
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #64748b;
+}
+
+.price {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #0b132b;
+    margin: 8px 0 4px 0;
+}
+
+.price-meta {
+    font-size: 0.9rem;
+    color: #64748b;
+}
+
+/* Features List */
+.features-list {
+    list-style: none;
+    margin-bottom: 40px;
+    flex-grow: 1; /* Pushes button to bottom if lists vary in size */
+}
+
+.features-list li {
+    font-size: 0.95rem;
+    color: #334155;
+    margin-bottom: 16px;
+    position: relative;
+    padding-left: 20px;
+}
+
+/* Custom bullet styling */
+.features-list li::before {
+    content: "•";
+    color: #2563eb;
+    font-weight: bold;
+    font-size: 1.25rem;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+/* Button Variants */
+.get-btn {
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px solid #2563eb;
+    color: #2563eb;
+}
+
+.btn-outline:hover {
+    background-color: #eff6ff;
+}
+
+.btn-dark-outline {
+    background-color: transparent;
+    border: 1px solid #1e293b;
+    color: #1e293b;
+}
+
+.btn-dark-outline:hover {
+    background-color: #f1f5f9;
+}
+
+/* --- Featured Card (PRO) Styling overrides --- */
+.card.featured {
+    background-color: #0b132b; /* Dark navy background */
+    border: none;
+}
+
+.card.featured .card-header {
+    border-bottom: 1px solid #1e293b;
+}
+
+.card.featured .plan-name {
+    color: #3b82f6;
+}
+
+.card.featured .price {
+    color: #ffffff;
+}
+
+.card.featured .price-meta {
+    color: #94a3b8;
+}
+
+.card.featured .features-list li {
+    color: #e2e8f0;
+}
+
+.card.featured .features-list li::before {
+    color: #3b82f6;
+}
+
+.btn-solid {
+    background-color: #2563eb;
+    border: none;
+    color: #ffffff;
+}
+
+.btn-solid:hover {
+    background-color: #1d4ed8;
 }
