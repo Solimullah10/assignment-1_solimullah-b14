@@ -236,7 +236,7 @@ body {
     align-items: stretch;
 }
 
-/* Base Card Styling */
+
 .card {
     background-color: #ffffff;
     border: 1px solid #e2e8f0;
@@ -275,12 +275,11 @@ body {
     color: #64748b;
 }
 
-/* Features List */
+
 .features-list {
     list-style: none;
     margin-bottom: 40px;
     flex-grow: 1;
-    /* Pushes button to bottom if lists vary in size */
 }
 
 .features-list li {
@@ -302,7 +301,6 @@ body {
     top: -2px;
 }
 
-/* Button Variants */
 .get-btn {
     width: 100%;
     padding: 14px;
@@ -333,7 +331,6 @@ body {
     background-color: #f1f5f9;
 }
 
-/* --- Featured Card (PRO) Styling overrides --- */
 .card.featured {
     background-color: #0b132b;
     /* Dark navy background */
@@ -374,7 +371,7 @@ body {
     background-color: #1d4ed8;
 }
 
-/* Platinum partners */
+/* Platinum partners  Add a section with AI*/
 .partners-section {
     margin: 50px auto;
     background-color: #000000;
@@ -466,7 +463,7 @@ body {
     box-shadow: 0 0 20px rgba(99, 102, 241, 0.4);
     transform: translateY(-2px);
 }
-
+/* Footer part */
 .devconf-footer {
     display: flex;
     justify-content: space-between;
@@ -505,7 +502,7 @@ body {
 
 /* Hover effects */
 .social-icon-link:hover .icon-svg {
-    fill: #0a53e4;
+    fill: #99f55c95;
 }
 
 .social-icon-link:hover {
